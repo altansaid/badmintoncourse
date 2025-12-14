@@ -25,7 +25,7 @@ const Registration = () => {
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Take the first step towards your badminton journey. Register now and
-            join our free program led by professional coaches!
+            join our program led by professional coaches! First 8 classes are FREE.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ const Registration = () => {
               </div>
               <div className="p-4 bg-secondary rounded-lg">
                 <div className="text-2xl font-bold text-primary mb-2">FREE</div>
-                <div className="text-sm text-muted-foreground">No Cost</div>
+                <div className="text-sm text-muted-foreground">First 8 Classes</div>
               </div>
               <div className="p-4 bg-secondary rounded-lg">
                 <div className="text-2xl font-bold text-primary mb-2">Pro</div>

@@ -39,7 +39,7 @@ const Hero = () => {
         </p>
 
         <p className="text-lg mb-8 text-white/70 max-w-2xl mx-auto">
-          Free badminton program for students in Grades 5, 6, 7, and 8. Led by
+          First 8 classes FREE for students in Grades 5, 6, 7, and 8. Led by
           professional coaches in a fun and supportive environment.
         </p>
 
@@ -53,7 +53,7 @@ const Hero = () => {
                 ?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            Register Now - It's FREE
+            Register Now
           </Button>
 
           <Button
@@ -79,7 +79,7 @@ const Hero = () => {
             8 Weeks Program
           </div>
           <div className="px-4 py-2 bg-primary/30 backdrop-blur-sm rounded-full text-white text-sm font-semibold">
-            100% FREE
+            First 8 Classes FREE
           </div>
         </div>
       </div>

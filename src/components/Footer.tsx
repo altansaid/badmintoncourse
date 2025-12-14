@@ -11,7 +11,7 @@ const Footer = () => {
               <h3 className="text-xl font-bold">Fly Birdie Community Club</h3>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Free indoor badminton training program for students in Grades 5-8.
+              Indoor badminton training for students in Grades 5-8. First 8 classes FREE!
               Led by professional coaches in a supportive environment.
             </p>
           </div>

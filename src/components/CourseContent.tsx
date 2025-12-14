@@ -35,7 +35,7 @@ const CourseContent = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We provide a free badminton club designed to help young athletes learn, 
+            We provide a badminton club designed to help young athletes learn, 
             grow, and enjoy the sport in a fun and supportive environment.
           </p>
         </div>
@@ -82,14 +82,14 @@ const CourseContent = () => {
                   <span className="text-xl">🔹</span>
                   <div>
                     <p className="font-medium text-foreground">Junior Training</p>
-                    <p className="text-sm text-muted-foreground">8 classes total - <span className="text-primary font-semibold">FREE</span></p>
+                    <p className="text-sm text-muted-foreground">First 8 classes - <span className="text-primary font-semibold">FREE</span></p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-secondary rounded-lg">
                   <span className="text-xl">🔹</span>
                   <div>
                     <p className="font-medium text-foreground">Intermediate Training</p>
-                    <p className="text-sm text-muted-foreground">8 classes total - <span className="text-primary font-semibold">FREE</span></p>
+                    <p className="text-sm text-muted-foreground">First 8 classes - <span className="text-primary font-semibold">FREE</span></p>
                   </div>
                 </div>
               </div>
