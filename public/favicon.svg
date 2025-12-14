@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle with cream/beige color matching the logo -->
+  <circle cx="32" cy="32" r="32" fill="#E8E0D5"/>
+  
+  <!-- Shuttlecock shape -->
+  <ellipse cx="32" cy="42" rx="8" ry="6" fill="#1e3a5f"/>
+  
+  <!-- Feathers -->
+  <path d="M24 40 L20 18 L28 35 Z" fill="#1e3a5f"/>
+  <path d="M28 38 L26 14 L32 33 Z" fill="#1e3a5f"/>
+  <path d="M32 37 L32 12 L36 33 Z" fill="#1e3a5f"/>
+  <path d="M36 38 L38 14 L32 33 Z" fill="#1e3a5f"/>
+  <path d="M40 40 L44 18 L36 35 Z" fill="#1e3a5f"/>
+  
+  <!-- Red accent (like the bird's chest) -->
+  <ellipse cx="32" cy="44" rx="5" ry="3" fill="#8B2332"/>
+</svg>
+
