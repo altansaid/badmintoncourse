@@ -11,8 +11,8 @@ const Footer = () => {
               <h3 className="text-xl font-bold">Fly Birdie Community Club</h3>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Indoor badminton training for students in Grades 5-8. First 8 classes FREE!
-              Led by professional coaches in a supportive environment.
+              Indoor badminton training for students in Grades 5-8 at $25 per
+              session. Led by professional coaches in a supportive environment.
             </p>
           </div>
 
@@ -96,15 +96,19 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <span>📍</span>
-                <span>Huntley Centennial Public School</span>
+                <span>Barrhaven and nearby communities</span>
               </li>
               <li className="flex items-center gap-2">
                 <span>⏰</span>
-                <span>Saturdays 4:00-6:00 PM</span>
+                <span>Each session is 2 hours</span>
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-start gap-2">
                 <span>📅</span>
-                <span>Nov 29 - Jan 31 (8 weeks)</span>
+                <div className="leading-relaxed">
+                  <p>March 28, 2026</p>
+                  <p>April 11, 18, 25, 2026</p>
+                  <p>May 2, 9, 23, 30, 2026</p>
+                </div>
               </li>
             </ul>
           </div>

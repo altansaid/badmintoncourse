@@ -20,7 +20,7 @@ const CourseContent = () => {
     {
       icon: "🌟",
       title: "All Levels Welcome",
-      description: "Open to beginners, intermediate, and advanced players in Barrhaven and nearby communities.",
+      description: "Open to students in Grades 5-8 from Barrhaven and nearby communities.",
     },
   ];
 
@@ -73,23 +73,25 @@ const CourseContent = () => {
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
-                <h4 className="font-semibold text-primary mb-2">Winter Session 2025-2026</h4>
-                <p className="text-muted-foreground">Beginner ~ Intermediate Classes</p>
+                <h4 className="font-semibold text-primary mb-2">Spring Session 2026</h4>
+                <p className="text-muted-foreground">Program dates and session details</p>
               </div>
 
               <div className="space-y-3">
                 <div className="flex items-center gap-3 p-3 bg-secondary rounded-lg">
                   <span className="text-xl">🔹</span>
                   <div>
-                    <p className="font-medium text-foreground">Junior Training</p>
-                    <p className="text-sm text-muted-foreground">First 8 classes - <span className="text-primary font-semibold">FREE</span></p>
+                    <p className="font-medium text-foreground">Session Cost</p>
+                    <p className="text-sm text-muted-foreground">
+                      <span className="text-primary font-semibold">$25</span> per session
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-secondary rounded-lg">
                   <span className="text-xl">🔹</span>
                   <div>
-                    <p className="font-medium text-foreground">Intermediate Training</p>
-                    <p className="text-sm text-muted-foreground">First 8 classes - <span className="text-primary font-semibold">FREE</span></p>
+                    <p className="font-medium text-foreground">Session Duration</p>
+                    <p className="text-sm text-muted-foreground">Each session is 2 hours</p>
                   </div>
                 </div>
               </div>
@@ -97,12 +99,33 @@ const CourseContent = () => {
               <div className="border-t pt-4 space-y-2">
                 <div className="flex items-center gap-2 text-foreground">
                   <span>⏰</span>
-                  <span className="font-medium">Saturdays, 4:00 – 6:00 PM</span>
+                  <span className="font-medium">Each session is 2 hours</span>
                 </div>
-                <div className="flex items-center gap-2 text-foreground">
+                <div className="flex items-start gap-2 text-foreground">
                   <span>📆</span>
-                  <span className="font-medium">November 29 – January 31</span>
-                  <span className="text-sm text-muted-foreground">(8 weeks)</span>
+                  <div className="w-full space-y-2">
+                    <p className="font-medium">Spring Session Dates</p>
+                    <div className="grid gap-2 sm:grid-cols-3">
+                      <div className="rounded-md bg-secondary px-3 py-2">
+                        <p className="text-xs uppercase tracking-wide text-muted-foreground">
+                          March 2026
+                        </p>
+                        <p className="font-semibold text-foreground">28</p>
+                      </div>
+                      <div className="rounded-md bg-secondary px-3 py-2">
+                        <p className="text-xs uppercase tracking-wide text-muted-foreground">
+                          April 2026
+                        </p>
+                        <p className="font-semibold text-foreground">11, 18, 25</p>
+                      </div>
+                      <div className="rounded-md bg-secondary px-3 py-2">
+                        <p className="text-xs uppercase tracking-wide text-muted-foreground">
+                          May 2026
+                        </p>
+                        <p className="font-semibold text-foreground">2, 9, 23, 30</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </CardContent>
@@ -119,8 +142,12 @@ const CourseContent = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-semibold text-foreground mb-1">Huntley Centennial Public School</p>
-                <p className="text-muted-foreground">118 Langstaff Dr, Carp, ON K0A 1L0</p>
+                <p className="font-semibold text-foreground mb-1">
+                  Indoor training facilities in Barrhaven and nearby communities
+                </p>
+                <p className="text-muted-foreground">
+                  Sessions are held in Barrhaven and nearby communities
+                </p>
               </CardContent>
             </Card>
 

@@ -42,9 +42,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground text-lg mb-2">Training Location</h4>
-                  <p className="text-foreground font-medium">Huntley Centennial Public School</p>
-                  <p className="text-muted-foreground">118 Langstaff Dr</p>
-                  <p className="text-muted-foreground">Carp, ON K0A 1L0</p>
+                  <p className="text-foreground font-medium">
+                    Indoor training facilities in Barrhaven and nearby communities
+                  </p>
+                  <p className="text-muted-foreground">
+                    Sessions are held in Barrhaven and nearby communities
+                  </p>
                 </div>
               </div>
             </div>
@@ -56,10 +59,15 @@ const Contact = () => {
                   <span className="text-primary text-2xl">⏰</span>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground text-lg mb-2">Training Hours</h4>
-                  <p className="text-foreground font-medium">Saturdays</p>
-                  <p className="text-muted-foreground">4:00 PM – 6:00 PM</p>
-                  <p className="text-sm text-muted-foreground mt-1">Nov 29, 2025 – Jan 31, 2026</p>
+                  <h4 className="font-semibold text-foreground text-lg mb-2">Session Details</h4>
+                  <p className="text-foreground font-medium">Spring Session 2026</p>
+                  <p className="text-muted-foreground">$25 per session</p>
+                  <p className="text-muted-foreground">Each session is 2 hours</p>
+                  <div className="text-sm text-muted-foreground mt-1 space-y-1">
+                    <p>March 28, 2026</p>
+                    <p>April 11, 18, 25, 2026</p>
+                    <p>May 2, 9, 23, 30, 2026</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -73,7 +81,6 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground text-lg mb-2">Eligible Grades</h4>
                   <p className="text-foreground font-medium">Grades 5, 6, 7, and 8</p>
-                  <p className="text-muted-foreground">Open to Barrhaven and nearby communities</p>
                 </div>
               </div>
             </div>

@@ -10,7 +10,7 @@ import {
 const Registration = () => {
   const handleRegisterClick = () => {
     window.open(
-      "https://docs.google.com/forms/d/1a2lvtTf6RDRoW9Qb0VUqkJLtgfOYZ7FunAUAM64Izq0/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSeLX7bQ-okFSTjtBZY3FHFxpIrrW3Hi67lEDTs_bwzJM7kEJA/viewform",
       "_blank"
     );
   };
@@ -25,7 +25,7 @@ const Registration = () => {
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Take the first step towards your badminton journey. Register now and
-            join our program led by professional coaches! First 8 classes are FREE.
+            join our Spring Session 2026 program led by professional coaches.
           </p>
         </div>
 
@@ -35,26 +35,22 @@ const Registration = () => {
               Fly Birdie Community Club Registration
             </CardTitle>
             <CardDescription className="text-muted-foreground">
-              Winter 2025-2026 Session - Grades 5, 6, 7, and 8
+              Spring Session 2026 - Grades 5, 6, 7, and 8
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="grid md:grid-cols-3 gap-4 text-center">
               <div className="p-4 bg-secondary rounded-lg">
+                <div className="text-2xl font-bold text-primary mb-2">$25</div>
+                <div className="text-sm text-muted-foreground">Per Session</div>
+              </div>
+              <div className="p-4 bg-secondary rounded-lg">
+                <div className="text-2xl font-bold text-primary mb-2">2 Hours</div>
+                <div className="text-sm text-muted-foreground">Each Session</div>
+              </div>
+              <div className="p-4 bg-secondary rounded-lg">
                 <div className="text-2xl font-bold text-primary mb-2">8</div>
-                <div className="text-sm text-muted-foreground">
-                  Week Program
-                </div>
-              </div>
-              <div className="p-4 bg-secondary rounded-lg">
-                <div className="text-2xl font-bold text-primary mb-2">FREE</div>
-                <div className="text-sm text-muted-foreground">First 8 Classes</div>
-              </div>
-              <div className="p-4 bg-secondary rounded-lg">
-                <div className="text-2xl font-bold text-primary mb-2">Pro</div>
-                <div className="text-sm text-muted-foreground">
-                  Certified Coaches
-                </div>
+                <div className="text-sm text-muted-foreground">Spring Dates</div>
               </div>
             </div>
 
@@ -93,23 +89,35 @@ const Registration = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Saturdays 4:00-6:00 PM</span>
+                  <span>Sessions are held at indoor facilities in Barrhaven and nearby communities</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Nov 29 - Jan 31 (8 weeks)</span>
+                  <span>Open to students in Grades 5-8</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Beginner to Intermediate levels</span>
+                  <span>$25 per session</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Grades 5, 6, 7, and 8</span>
+                  <span>Each session is 2 hours</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Supportive environment</span>
+                  <span>March 28, 2026</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                  <span>April 11, 18, 25, 2026</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                  <span>May 2, 9, 23, 30, 2026</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                  <span>Payment details provided after registration</span>
                 </div>
               </div>
             </div>
