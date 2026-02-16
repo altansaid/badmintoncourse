@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import CourseContent from "@/components/CourseContent";
-import Gallery from "@/components/Gallery";
+// import CourseContent from "@/components/CourseContent";
+// import Gallery from "@/components/Gallery";
 import Registration from "@/components/Registration";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -12,8 +12,8 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <CourseContent />
-      <Gallery />
+      {/* <CourseContent /> */}
+      {/* <Gallery /> */}
       <Registration />
       <About />
       <Contact />

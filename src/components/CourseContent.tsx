@@ -20,7 +20,7 @@ const CourseContent = () => {
     {
       icon: "🌟",
       title: "All Levels Welcome",
-      description: "Open to students in Grades 5-8 from Barrhaven and nearby communities.",
+      description: "Open to students in Grades 5-8 at South March Public School (Kanata).",
     },
   ];
 
@@ -97,10 +97,6 @@ const CourseContent = () => {
               </div>
 
               <div className="border-t pt-4 space-y-2">
-                <div className="flex items-center gap-2 text-foreground">
-                  <span>⏰</span>
-                  <span className="font-medium">Each session is 2 hours</span>
-                </div>
                 <div className="flex items-start gap-2 text-foreground">
                   <span>📆</span>
                   <div className="w-full space-y-2">
@@ -143,10 +139,10 @@ const CourseContent = () => {
               </CardHeader>
               <CardContent>
                 <p className="font-semibold text-foreground mb-1">
-                  Indoor training facilities in Barrhaven and nearby communities
+                  South March Public School (Kanata)
                 </p>
                 <p className="text-muted-foreground">
-                  Sessions are held in Barrhaven and nearby communities
+                  Indoor training facility
                 </p>
               </CardContent>
             </Card>

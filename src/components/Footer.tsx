@@ -31,19 +31,7 @@ const Footer = () => {
                   Home
                 </button>
               </li>
-              <li>
-                <button
-                  onClick={() =>
-                    document
-                      .getElementById("course-content")
-                      ?.scrollIntoView({ behavior: "smooth" })
-                  }
-                  className="hover:text-primary-foreground transition-smooth"
-                >
-                  Program Details
-                </button>
-              </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={() =>
                     document
@@ -54,7 +42,7 @@ const Footer = () => {
                 >
                   Gallery
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button
                   onClick={() =>
@@ -64,7 +52,7 @@ const Footer = () => {
                   }
                   className="hover:text-primary-foreground transition-smooth"
                 >
-                  Register
+                  Program & Register
                 </button>
               </li>
               <li>
@@ -96,7 +84,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <span>📍</span>
-                <span>Barrhaven and nearby communities</span>
+                <span>South March Public School (Kanata)</span>
               </li>
               <li className="flex items-center gap-2">
                 <span>⏰</span>

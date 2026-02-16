@@ -15,10 +15,33 @@ const Registration = () => {
     );
   };
 
+  const benefits = [
+    {
+      icon: "🎯",
+      title: "Skill Development",
+      description: "Improve your technique, footwork, and game strategy with structured training sessions.",
+    },
+    {
+      icon: "🏅",
+      title: "Certified Coaching",
+      description: "Learn from experienced, passionate coaches in a positive and encouraging setting.",
+    },
+    {
+      icon: "💪",
+      title: "Team Spirit & Confidence",
+      description: "Build discipline, leadership skills, and develop a genuine love for the sport.",
+    },
+    {
+      icon: "🌟",
+      title: "All Levels Welcome",
+      description: "Open to students in Grades 5-8 at South March Public School (Kanata).",
+    },
+  ];
+
   return (
     <section id="registration" className="py-20 px-6 bg-primary/5">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-16 animate-slide-up">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Ready to <span className="text-primary">Join Us?</span>
           </h2>
@@ -29,6 +52,28 @@ const Registration = () => {
           </p>
         </div>
 
+        {/* Benefits Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {benefits.map((benefit, index) => (
+            <Card
+              key={index}
+              className="gradient-card border-0 shadow-custom hover:shadow-glow transition-all duration-300 hover:-translate-y-2 animate-slide-up text-center"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <CardHeader className="pb-2">
+                <div className="text-4xl mb-4">{benefit.icon}</div>
+                <CardTitle className="text-lg font-bold text-foreground">
+                  {benefit.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground text-sm">{benefit.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        {/* Registration Card */}
         <Card className="gradient-card border-0 shadow-custom max-w-2xl mx-auto animate-slide-up">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl font-bold text-foreground">
@@ -51,6 +96,27 @@ const Registration = () => {
               <div className="p-4 bg-secondary rounded-lg">
                 <div className="text-2xl font-bold text-primary mb-2">8</div>
                 <div className="text-sm text-muted-foreground">Spring Dates</div>
+              </div>
+            </div>
+
+            {/* Session Dates */}
+            <div>
+              <h4 className="font-semibold text-foreground mb-3 text-center">
+                Spring Session Dates:
+              </h4>
+              <div className="grid grid-cols-3 gap-2">
+                <div className="rounded-md bg-secondary px-3 py-2 text-center">
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">March 2026</p>
+                  <p className="font-semibold text-foreground">28</p>
+                </div>
+                <div className="rounded-md bg-secondary px-3 py-2 text-center">
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">April 2026</p>
+                  <p className="font-semibold text-foreground">11, 18, 25</p>
+                </div>
+                <div className="rounded-md bg-secondary px-3 py-2 text-center">
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">May 2026</p>
+                  <p className="font-semibold text-foreground">2, 9, 23, 30</p>
+                </div>
               </div>
             </div>
 
@@ -80,44 +146,20 @@ const Registration = () => {
 
             <div className="border-t pt-6">
               <h4 className="font-semibold text-foreground mb-4">
-                Program Details:
+                Important Remarks:
               </h4>
-              <div className="grid md:grid-cols-2 gap-3 text-sm text-muted-foreground text-left">
+              <div className="space-y-2 text-sm text-muted-foreground text-left">
                 <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Professional coaching</span>
+                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
+                  <span>South March Public School (Kanata)</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Sessions are held at indoor facilities in Barrhaven and nearby communities</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Open to students in Grades 5-8</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>$25 per session</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Each session is 2 hours</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>March 28, 2026</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>April 11, 18, 25, 2026</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>May 2, 9, 23, 30, 2026</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
                   <span>Payment details provided after registration</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-amber-500 rounded-full flex-shrink-0"></div>
+                  <span>Participants must wear <strong className="text-foreground">court shoes</strong>, appropriate sports attire, and <strong className="text-foreground">protective eyewear</strong></span>
                 </div>
               </div>
             </div>
